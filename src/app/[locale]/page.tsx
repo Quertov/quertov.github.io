@@ -12,7 +12,12 @@ import { Worldwide } from '@/components/Worldwide';
 import { Discuss } from '@/components/Discuss/Discuss';
 import { Footer } from '@/components/Footer';
 
+export async function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'sk' }, { locale: 'uk' }]; // Add all possible locales
+}
+
 const Home = () => {
+
   return (
     <main className={ styles.root }>
       <Category>
