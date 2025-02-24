@@ -13,7 +13,8 @@ import { Discuss } from '@/components/Discuss/Discuss';
 import { Footer } from '@/components/Footer';
 
 export async function generateStaticParams() {
-  return [{ locale: 'ua' }, { locale: 'en' }, { locale: 'ru' }];
+  const locales = ['ua', 'en', 'ru'];
+  return locales.map((locale) => ({ locale }));
 }
 
 const Home = () => {
