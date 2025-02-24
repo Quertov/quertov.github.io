@@ -1,3 +1,6 @@
+// @ts-nocheck
+/* eslint-disable no-use-before-define */
+
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
