@@ -11,7 +11,7 @@ import { Locales } from '@/types';
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
-  params: { locale: Locales };
+  params: any
 }
 
 export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
