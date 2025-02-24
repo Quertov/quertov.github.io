@@ -1,4 +1,3 @@
-// @ts-nocheck
 /* eslint-disable no-use-before-define */
 
 import {NextIntlClientProvider} from 'next-intl';
