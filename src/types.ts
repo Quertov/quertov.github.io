@@ -1,0 +1,1 @@
+export type Locales = 'ua' | 'en' | 'ru';

@@ -1,0 +1,201 @@
+{
+  "menu": {
+    "development": "DEVELOPMENT",
+    "services": "SERVICES",
+    "about": "ABOUT US",
+    "contacts": "CONTACTS",
+    "contactUs": "CONTACT US"
+  },
+  "hero": {
+    "realize": "REALIZE",
+    "slogan": "YOUR IDEAS",
+    "withUs": "WITH US",
+    "info": "With us, you'll get a sea of attention to your project because we strive to create not just impressive, but maximally useful and impactful products",
+    "orderWebsite": "ORDER A SITE"
+  },
+  "developments": {
+    "web": {
+      "title": "Web-development",
+      "info": "We implement trends and technologies that most companies are not yet aware of. This helps our clients to be one step ahead of their competitors from the start.",
+      "keyWebsite": "Turnkey website",
+      "keyInternetStore": "Turnkey online store",
+      "webApp": "Web application is a solution for your business development",
+      "postInfo": "Our team will adapt your wishes on the Internet!"
+    },
+    "mobile": {
+      "title": "Mobile development",
+      "info": "We create mobile applications with a lightweight design and clear functionality that can significantly increase your audience and customer loyalty.",
+      "appDevelopment": "Application development for Android and iOS operating systems",
+      "postInfo": "Mobile applications are the best solution to expand your brand and attract new customers, making your services easy to use"
+    },
+    "design": {
+      "title": "Design",
+      "innerTitle": "Development of UI/UX design",
+      "info": "Our designs are designed to impress, delight, sell, and generate revenue. You will get a design that people will use.",
+      "postInfo": "Bright and convenient design will remain in the memory of each of your customers"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "priceFrom": "from",
+    "order": "ORDER",
+    "catalogOption": {
+      "title": "Website Catalog",
+      "description": "A catalog site is a resource that contains a list of products with descriptions and photos. The main task of a catalog site is to familiarize potential customers with the range of products",
+      "details": {
+        "first": "From 20 working days",
+        "second": "Individual design",
+        "third": "Comprehensive website development with the possibility of further promotion"
+      }
+    },
+    "corporateOption": {
+      "title": "Corporate website",
+      "description": "A website will help you to tell about your company's services or products, increase the interest of potential customers in your company, its image, and customer loyalty.",
+      "details": {
+        "first": "From 28 working days",
+        "second": "Individual design",
+        "third": "Possibility of promotion in search results and contextual advertising"
+      },
+      "price": 12345
+    },
+    "onlineShop": {
+      "title": "Online store",
+      "description": "We create modern online stores to increase sales. Convenient catalog, the ability to integrate with CRM and accounting programs for effective business management.",
+      "details": {
+        "first": "From 22 working days",
+        "second": "Template / Customized design",
+        "third": "Turnkey development with the possibility of additional integrations and automation"
+      },
+      "price": 12345
+    },
+    "SPA": {
+      "title": "Single-page website",
+      "description": "A landing page is a one-page website whose main goal is to encourage a visitor to fill out an application or purchase a product.",
+      "details": {
+        "first": "From 12 working days",
+        "second": "Individual design",
+        "third": "Possibility of promotion through contextual advertising"
+      },
+      "price": 12345
+    },
+    "websiteCard": {
+      "title": "Website business card",
+      "description": "A business website represents you or your business on the Internet and becomes a powerful tool for attracting customers, partners, and investors.",
+      "details": {
+        "first": "From 18 working days",
+        "second": "Individual design",
+        "third": "Comprehensive website development with the possibility of further promotion"
+      },
+      "price": 12345
+    }
+  },
+  "about": {
+    "title": "A little bit about us",
+    "paragraphs": {
+      "first": "Q WEB - What criterion do we usually monitor carefully before deciding to order any service?",
+      "second": "That's right, the price. And depending on the type of service, the price range can be quite wide. A good example is the development of web projects. After all, the question «How much does it cost to create a website in Ukraine?»cannot be answered unequivocally. The wide range between the minimum and maximum prices is due to the fact that the cost of website programming is calculated individually, taking into account a number of factors."
+    },
+    "satisfiedCustomers": "Satisfied customers",
+    "readyProjects": "Ready projects made by our team",
+    "experience": "Years of working for you",
+    "employees": "Employees working to create your unique website"
+  },
+  "faq": {
+    "title": "Answers to frequently asked questions",
+    "questions": [
+      {
+        "question": "Why is it worth ordering from us?",
+        "answer": "That's right, the price. And depending on the type of service, the price range can be quite wide. A good example is the development of web projects. After all, the question “How much does it cost to create a website in Ukraine?” cannot be answered unequivocally. The wide range between the minimum and maximum prices is due to the fact that the cost of website programming is calculated individually, taking into account a number of factors."
+      },
+      {
+        "question": "Do you make a turnkey website?",
+        "answer": "Yes, we offer a turnkey website development service. This means that we take care of the entire development process - from initial analysis and planning to design, programming, testing, and launch of the finished website. Upon completion of the project, you get a fully functional resource that is ready for use and further self-management without the need for additional improvements."
+      },
+      {
+        "question": "How is the cooperation going?",
+        "answer": "Cooperation with us takes place in several stages:",
+        "steps": [
+          {
+            "title": "1. Discussion of the project: ",
+            "description": "We study your needs and goals in detail to determine the optimal development strategy."
+          },
+          {
+            "title": "2. Planning and design: ",
+            "description": "We create a website structure and develop a unique design that matches your brand."
+          },
+          {
+            "title": "3. Development and integration: ",
+            "description": "We implement the website's functionality, integrate the necessary services, and ensure adaptability for different devices."
+          },
+          {
+            "title": "4. Testing and launching: ",
+            "description": "We check the website's performance, correct any possible shortcomings, and launch it online."
+          },
+          {
+            "title": "5. Support and maintenance: ",
+            "description": "We provide consultations and technical support after the launch to ensure the stable operation of the resource."
+          }
+        ]
+      },
+      {
+        "question": "Do you offer full project support?",
+        "answer": "We also offer full project support. This includes regular content updates, technical support, monitoring of website performance and security, and SEO optimization to improve search engine visibility. Our approach allows you to focus on growing your business while we take care of all aspects of your website."
+      }
+    ]
+  },
+  "worldwide": {
+    "title": "We work with clients from all over the world",
+    "paragraphs": [
+      {
+        "title": "How to choose an app development company",
+        "text": [
+          "Before you look for a contractor, find out how much it costs to write an app. Determine the budget you can afford. Be prepared that the price may increase if the project concept has not yet been formed and new features continue to be added to it. Also consider the time limit. An urgent project will cost more.",
+          "How to find the right team? Make a list of developers for yourself - google, use social media, ask your friends for contacts of good developers - surely someone in your environment already has experience with digital. Collect a list of interesting companies and analyze their work. Consider the following points:"
+        ]
+      },
+      {
+        "title": "The cost of developing a mobile application",
+        "text": "The price of the same product will differ from developer to developer, because different teams work with different technologies. Let's start from the average price on the market. Programs can be divided into three main groups: basic, medium, and complex."
+      }
+    ],
+    "listItems": [
+      "Portfolio. Usually, customers are offered the best works that will give you an idea of the experience, skills, and style. Find out if the developers have worked on a similar project and study it.",
+      "Find out the qualifications of your employees. Make sure you have experienced developers on staff who can handle your project. They should have a good understanding of the topic, work responsibly, and not disappear.",
+      "Check out reviews on websites and social media. Also check the company's client list. Contact them, find out whether the developers are responsible, who is best to entrust the project to, and whether they promptly fix errors. Ask if there were any conflicts and how they were resolved.",
+      "Test ready-made applications created by the company by finding out their names and downloading them to your smartphone. This way you can assess the quality of the work - whether there are any glitches, errors, or other issues.",
+      "It often happens that an error occurs in the application that needs to be fixed immediately, and the contract is closed. Therefore, give preference to a contractor who will not only develop the project, but also offer maintenance after its completion."
+    ]
+  },
+  "discuss": {
+    "title": "Discuss the project",
+    "description": "Fill in the fields below and we will contact you as soon as possible",
+    "form": {
+      "name": "What is your name?",
+      "phone": "Your phone number",
+      "description": "Tell us about your project",
+      "requiredField": "This field is required",
+      "send": "SEND"
+    }
+  },
+  "footer": {
+    "services": {
+      "title": "SERVICES",
+      "items": [
+        "Creating an online store",
+        "Creation of a corporate website",
+        "Mobile applications"
+      ]
+    },
+    "promotion": {
+      "title": "PROMOTION",
+      "items": [
+        "Website promotion",
+        "Contextual advertising",
+        "Website development in Laravel"
+      ]
+    },
+    "contact": {
+      "title": "CONTACT US"
+    }
+  }
+}

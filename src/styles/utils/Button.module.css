@@ -1,0 +1,22 @@
+.button {
+	@apply
+	text-white
+	bg-primary
+	w-[270px]
+	h-[60px]
+	rounded-md
+	text-[20px]
+	transition-colors
+	duration-75
+	;
+}
+
+.button:active {
+	@apply
+	bg-white
+	border-2
+	border-primary
+	border-solid
+	text-primary
+	;	
+}

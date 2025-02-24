@@ -1,0 +1,80 @@
+.menu_icon__container {
+	@apply
+	cursor-pointer
+	z-30
+	;
+}
+
+.menu__container {
+	@apply
+	bg-red-600
+	fixed
+	inset-0
+	z-20
+	text-black
+	bg-white
+	flex
+	flex-col
+	justify-center
+	px-[30px]
+	;
+}
+
+.menu__list_container,
+.menu__language_list {
+	@apply
+	font-medium
+	text-[25px]
+	;
+}
+
+.menu__list_container {
+	@apply
+	flex
+	flex-col
+	gap-[30px]
+	mb-[80px]
+	;
+}
+
+.menu__list_item,
+.menu__language_item {
+	@apply
+	cursor-pointer
+	transition-colors
+	;
+}
+
+.menu__language_list {
+	@apply
+	flex
+	gap-[30px]
+	mb-[40px]
+	;
+}
+
+.menu__contacts_container {
+	@apply
+	flex
+	gap-[20px]
+	items-center
+	;
+}
+
+.menu__contacts_btn {
+	@apply
+	w-[215px]
+	h-[60px]
+	font-medium
+	border-2
+	rounded
+	cursor-pointer
+	;
+}
+
+.menu__contacts_socials {
+	@apply
+	flex
+	gap-[20px]
+	;
+}

@@ -1,0 +1,86 @@
+.development__container {
+	@apply
+	flex
+	flex-col
+	lg:flex-row-reverse
+	lg:pl-[30px]
+	;
+}
+
+.development__images_container {
+	@apply
+	w-full
+	flex
+	items-end
+	justify-center
+	gap-[20px]
+	;
+}
+
+.first_image_container {
+	@apply
+	w-[144px]
+	lg:w-[200px]
+	2xl:w-[250px]
+	;
+}
+
+.first_image,
+.second_image,
+.mobile_icon,
+.development__details_icon {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.first_image {
+	@apply
+	w-full
+	;
+	aspect-ratio: 288 / 526;
+	background-image: url('/mobile-development/mobile-preview1.png');
+}
+
+.second_image_container {
+	@apply
+	w-[122px]
+	lg:w-[150px]
+	2xl:w-[200px]
+	;
+}
+
+.second_image {
+	@apply
+	w-full
+	;
+	aspect-ratio: 245 / 448;
+	background-image: url('/mobile-development/mobile-preview2.png');
+}
+
+.mobile_icon {
+	@apply
+	w-[22px]
+	ml-[10px]
+	mb-[6px]
+	lg:w-[40px]
+	lg:mb-[20px]
+	lg:ml-[20px]
+	;
+	aspect-ratio: 64 / 76;
+	background-image: url('/mobile-development/mobile-icon.png');
+}
+
+.development__info_container {
+	@apply
+	px-[20px]
+	;
+}
+
+.development__details_icon {
+	@apply
+	w-[39px]
+	;
+	aspect-ratio: 78 / 141;
+	background-image: url('/mobile-development/android-ios-icons.png');
+}

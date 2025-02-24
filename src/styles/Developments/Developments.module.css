@@ -1,0 +1,52 @@
+.developments__container {
+	@apply
+	pt-[90px]
+	;
+}
+
+.developments__list {
+	@apply
+	mb-[30px]
+	pl-[30px]
+	lg:flex
+	lg:items-center
+	lg:gap-[60px]
+	lg:mb-[22px]
+	;
+}
+
+.developments__item {
+	@apply
+	cursor-pointer
+	mt-[20px]
+	;
+}
+
+.developments__item_text {
+	@apply
+	text-[24px]
+	hover:text-primary
+	font-medium
+	transition-colors
+	relative
+	;
+}
+
+.developments__text_active {
+	@apply
+	text-primary
+	;
+}
+
+.developments__text_active:before {
+	@apply
+	content-['']
+	absolute
+	left-0
+	bottom-[-10px]
+	lg:bottom-[-30px]
+	w-[58px]
+	lg:w-full
+	;
+	border-bottom: 4px solid var(--primary);
+}

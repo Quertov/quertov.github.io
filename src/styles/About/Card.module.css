@@ -1,0 +1,40 @@
+.about__card {
+	@apply
+	w-[160px]
+	h-[160px]
+	rounded-xl
+	border
+	border-white
+	flex
+	flex-col
+	justify-center
+	items-start
+	text-left
+	text-[16px]
+	font-light
+	pl-[20px]
+	pr-[15px]
+	;
+}
+
+.about__card_number {
+	@apply
+	font-extrabold
+	text-[40px]
+	;
+	line-height: 40px;
+}
+
+.about__card_info {
+	@apply
+	font-medium
+	text-[14px]
+	;
+	line-height: 17px;
+}
+
+.about__card:last-child .about__card_info:last-child {
+	@apply
+	text-[13px]
+	;
+}

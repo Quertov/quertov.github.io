@@ -1,0 +1,24 @@
+.scroll__container {
+	@apply
+	w-[50px]
+	h-[50px]
+	fixed
+	bottom-[2%]
+	right-[3%]
+	/* bg-primary */
+	bg-white
+	/* text-white */
+	text-primary
+	flex
+	justify-center
+	items-center
+	text-[20px]
+	rounded-full
+	cursor-pointer
+	border-2
+	border-solid
+	/* border-white */
+	border-primary
+	;
+	transition: opacity .8s;
+}

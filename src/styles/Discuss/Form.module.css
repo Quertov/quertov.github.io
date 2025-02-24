@@ -1,0 +1,81 @@
+.form__container {
+	@apply
+	flex
+	flex-col
+	items-center
+	w-full
+	gap-[30px]
+	;
+}
+
+.form__item {
+	@apply
+	relative
+	w-full
+	;
+}
+
+.form__input {
+	@apply
+	outline-none
+	h-[35px]
+	text-[18px]
+	font-medium
+	px-[5px]
+	py-[10px]
+	bg-accent
+	w-full
+	rounded-none
+	;
+	border-bottom: 1px black solid;
+}
+
+.form__right textarea {
+	@apply
+	h-[142px]
+	font-light
+	pb-[10px]
+	;
+}
+
+.form__label {
+	@apply
+	absolute
+	text-black
+	;
+	transition: font-size .3s ease-in-out, transform .3s ease-in-out;
+}
+
+.form__item:focus-within .form__label,
+.form__input:focus + .form__label,
+.form__input:not(:placeholder-shown) + .form__label {
+	@apply
+	text-[14px]
+	;
+	transform: translateY(-20px);
+}
+
+.form__required {
+	@apply
+	text-[16px]
+	text-red-600
+	mt-[5px]
+	;
+}
+
+.form__left {
+	@apply
+	flex
+	flex-col
+	gap-[30px]
+	;
+}
+
+.form__right,
+.form__left {
+	@apply
+	w-full
+	lg:w-[450px]
+	h-full
+	;
+}

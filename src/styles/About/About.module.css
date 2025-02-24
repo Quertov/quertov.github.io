@@ -1,0 +1,50 @@
+.about__container {
+	@apply
+	bg-primary
+	text-white
+	px-[20px]
+	py-[50px]
+	lg:flex
+	lg:justify-center
+	lg:items-center
+	lg:gap-[100px]
+	lg:px-[100px]
+	;
+}
+
+.about__title {
+	@apply
+	text-[25px]
+	font-extrabold
+	mb-[15px]
+	lg:text-[50px]
+	;
+}
+
+.about__paragraph {
+	@apply
+	font-light
+	text-[16px]
+	mb-[20px]
+	;
+}
+
+.about__cards_container {
+	@apply
+	flex
+	flex-col
+	md:flex-row
+	md:justify-center
+	gap-[20px]
+	items-center
+	pt-[10px]
+	lg:flex-col
+	;
+}
+
+.about__cards_row {
+	@apply
+	flex
+	gap-[25px]
+	;
+}

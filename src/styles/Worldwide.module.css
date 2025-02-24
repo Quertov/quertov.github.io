@@ -1,0 +1,77 @@
+.worldwide__container {
+	@apply
+	flex
+	flex-col
+	px-[30px]
+	w-full
+	items-center
+	lg:px-[60px]
+	;
+}
+
+.worldwide__image_container {
+	@apply
+	w-[368px]
+	sm:w-[500px]
+	lg:w-[1000px]
+	my-[50px]
+	;
+}
+
+.worldwide__image {
+	@apply
+	w-full
+	h-full
+	;
+	aspect-ratio: 736 / 392;
+	background-image: url('/worldwide/world.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.worldwide__title {
+	@apply
+	text-[25px]
+	lg:text-[40px]
+	font-bold
+	;
+}
+
+.worldwide__info_container {
+	@apply
+	overflow-y-scroll
+	h-[390px]
+	lg:h-full
+	lg:grid
+	lg:grid-cols-2
+	lg:gap-x-[50px]
+	lg:px-[100px]
+	;
+	scrollbar-color: var(--primary) var(--accent);
+}
+
+.worldwide__paragraph_title {
+	@apply
+	text-[20px]
+	font-bold
+	mb-[10px]
+	;
+}
+
+.worldwide__list {
+	@apply
+	list-disc
+	pl-[17px]
+	;
+}
+
+.worldwide__paragraph,
+.worldwide__list_item p {
+	@apply
+	text-[16px]
+	font-light
+	mb-[15px]
+	lg:text-[18px]
+	;
+}

@@ -1,0 +1,39 @@
+.discuss__container {
+	@apply
+	flex
+	flex-col
+	items-center
+	bg-accent
+	py-[50px]
+	px-[20px]
+	lg:justify-center
+	;
+}
+
+.discuss__text_container {
+	@apply
+	flex
+	flex-col
+	items-center
+	justify-center
+	text-center
+	;
+}
+
+.discuss__title {
+	@apply
+	font-bold
+	text-[25px]
+	lg:text-[40px]
+	;
+}
+
+.discuss__description {
+	@apply
+	font-light
+	text-[18px]
+	mt-[8px]
+	mb-[40px]
+	lg:text-[25px]
+	;
+}

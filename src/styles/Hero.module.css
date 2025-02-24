@@ -1,0 +1,111 @@
+@keyframes spin {
+	0% {
+		transform: rotate(0) scale(1);
+	}
+	50% {
+		transform: rotate(360deg) scale(0.5);
+	}
+	100% {
+		transform: rotate(720deg) scale(1);
+	}
+}
+
+.hero__container {
+	@apply
+	flex
+	justify-between
+	items-center
+	px-[30px]
+	gap-[30px]
+	lg:pt-[60px]
+	;
+}
+
+.hero__socials_container {
+	@apply
+	flex
+	flex-col
+	gap-[20px]
+	;
+}
+
+.hero__left_container {
+	@apply
+	pt-[120px]
+	text-[#071332]
+	flex
+	flex-col
+	lg:w-[700px]
+	;
+}
+
+.hero__info_container {
+	@apply
+	flex
+	flex-col
+	;
+}
+
+.hero__info_slogan {
+	@apply
+	text-[44px]
+	font-extrabold
+	;
+}
+
+.hero__info_realize {
+	@apply
+	text-primary
+	;
+}
+
+.hero__info_about {
+	@apply
+	font-light
+	text-[20px]
+	;
+}
+
+.hero__buttons {
+	@apply
+	mt-[35px]
+	flex
+	justify-between
+	items-center
+	;
+}
+
+.hero__order_btn {
+	@apply
+	text-white
+	bg-primary
+	w-[270px]
+	h-[60px]
+	rounded-md
+	text-[20px]
+	;
+}
+
+.hero__order_btn .hero__arrow {
+	@apply
+	ml-[10px]
+	;
+	transform: rotate(-135deg);
+}
+
+.hero__right_container {
+	@apply
+	w-[500px]
+	h-[580px]
+	flex
+	justify-center
+	items-center
+	;
+	animation: 20s spin infinite linear;
+}
+
+.hero__social {
+	@apply
+	cursor-pointer
+	;
+}

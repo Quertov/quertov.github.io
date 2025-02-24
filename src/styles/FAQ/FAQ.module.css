@@ -1,0 +1,48 @@
+.faq__container {
+	@apply
+	bg-white
+	px-[20px]
+	flex
+	flex-col
+	items-center
+	w-full
+	lg:justify-center
+	lg:px-[100px]
+	lg:gap-[50px]
+	;
+}
+
+.faq__image_container {
+	@apply
+	w-[315px]
+	lg:w-[435px]
+	2xl:w-[500px]
+	;
+}
+
+.faq__image {
+	@apply
+	w-full
+	;
+	aspect-ratio: 630 / 630;
+	background-image: url('/faq/sphere.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.faq__title {
+	@apply
+	text-[25px]
+	lg:text-[30px]
+	font-bold
+	text-black
+	my-[40px]
+	;
+}
+
+.faq__questions_container {
+	@apply
+	w-full
+	;
+}

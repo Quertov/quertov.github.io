@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.header {
+	@apply
+	fixed
+	top-0
+	left-0
+	right-0
+	px-[30px]
+	py-[10px]
+	flex
+	justify-between
+	items-center
+	text-[#071332]
+	z-10
+	;
+	transition: background-color .5s, color .2s;
+}
+
+.header_scrolled {
+	@apply
+	/* bg-[#3a89b7] */
+	bg-[#3A4BB7]
+	text-white
+	;
+}
+
+.header__logos_container {
+	@apply
+	flex
+	items-center
+	justify-between
+	;
+}
+
+.header__title_link {
+	@apply
+	mt-[14px]
+	;
+}
+
+.header__title {
+	font-family: 'Goudy Trajan';
+	font-weight: 400;
+}
+
+.header__nav_container {
+	@apply
+	flex
+	justify-between
+	items-center
+	gap-[50px]
+	;
+}
+
+.nav__list_container {
+	@apply
+	flex
+	justify-between
+	items-center
+	gap-[30px]
+	;
+}

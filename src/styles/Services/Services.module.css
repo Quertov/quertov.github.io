@@ -1,0 +1,98 @@
+.services__container {
+	@apply
+	px-[30px]
+	lg:pl-[300px]
+	overflow-hidden
+	h-[900px]
+	;
+}
+
+.services__title {
+	@apply
+	text-[25px]
+	mb-[50px]
+	font-extrabold
+	;
+}
+
+.services__carousel {
+	@apply
+	relative
+	h-[700px]
+	;
+}
+
+.services__carousel_wrapper {
+	@apply
+	relative
+	h-[700px]
+	flex
+	flex-col
+	items-center
+	justify-center
+	;
+}
+
+.services__carousel_option {
+	@apply
+	absolute
+	lg:static
+	h-full
+	flex
+	justify-center
+	items-center
+	;
+	transition: transform .5s ease-in-out, opacity .5s ease-in-out;
+}
+
+.services__buttons_container {
+	@apply
+	flex
+	lg:justify-end
+	justify-center
+	items-center
+	gap-[20px]
+	cursor-pointer
+	lg:mr-[20px]
+	mt-[20px]
+	;
+}
+
+.services__button {
+	@apply
+	bg-primary
+	text-white
+	text-[24px]
+	font-extrabold
+	w-[42px]
+	h-[42px]
+	rounded-full
+	flex
+	justify-center
+	items-center
+	text-center
+	flex-shrink-0
+	;
+}
+
+.services__button:active {
+	@apply
+	opacity-80
+	;
+}
+
+.inactive {
+	@apply
+	bg-accent
+	cursor-default
+	;
+}
+
+.services__options_container {
+	@apply
+	flex
+	items-center
+	gap-[40px]
+	;
+	transform: translateX(-300px);
+}

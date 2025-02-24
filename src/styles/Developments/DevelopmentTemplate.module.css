@@ -1,0 +1,73 @@
+.development__container {
+	@apply
+	bg-accent
+	py-[30px]
+	flex
+	flex-col
+	;
+}
+
+.development__title_container {
+	@apply
+	flex
+	items-end
+	;
+}
+
+.development__title {
+	@apply
+	font-extrabold
+	text-[25px]
+	lg:text-[50px]
+	mt-[35px]
+	;
+}
+
+.development__paragraph {
+	@apply
+	mt-[10px]
+	font-light
+	text-[15px]
+	lg:text-[20px]
+	;
+}
+
+.development__details_container {
+	@apply
+	flex
+	flex-col
+	my-[20px]
+	gap-[10px]
+	relative
+	;
+}
+
+.development__details_row {
+	@apply
+	flex
+	items-center
+	gap-[15px]
+	;
+}
+
+.development__details_info {
+	@apply
+	font-light
+	text-[15px]
+	lg:text-[20px]
+	w-full
+	;
+}
+
+.development__details_icon {
+	@apply
+	w-[35px]
+	h-[35px]
+	flex
+	justify-center
+	items-center
+	bg-primary
+	rounded-full
+	flex-shrink-0
+	;
+}

@@ -1,0 +1,5 @@
+.category__container {
+	@apply
+	pt-[60px]
+	;
+}

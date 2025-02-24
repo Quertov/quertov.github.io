@@ -1,0 +1,62 @@
+[
+  {
+
+    "icon": "/services/website-catalog-icon.png",
+    "title": "catalogOption.title",
+    "description": "catalogOption.description",
+    "detailsList": [
+      { "icon": "/services/clock.png", "text": "catalogOption.details.first" },
+      { "icon": "/services/palette.png", "text": "catalogOption.details.second" },
+      { "icon": "/services/website-development.png", "text": "catalogOption.details.third" }
+    ],
+    "price": 12345
+  },
+  {
+    "icon": "/services/website-corporate-icon.png",
+    "title": "corporateOption.title",
+    "description": "corporateOption.description",
+    "detailsList": [
+      { "icon": "/services/clock.png", "text": "corporateOption.details.first" },
+      { "icon": "/services/palette.png", "text": "corporateOption.details.second" },
+      { "icon": "/services/website-promotion.png", "text": "corporateOption.details.third" }
+    ],
+    "price": 12345
+  },
+  {
+    "icon": "/services/website-shop-icon.png",
+    "title": "onlineShop.title",
+    "description": "onlineShop.description",
+    "detailsList": [
+      { "icon": "/services/clock.png", "text": "onlineShop.details.first" },
+      { "icon": "/services/palette.png", "text": "onlineShop.details.second" },
+      { "icon": "/services/key.png", "text": "onlineShop.details.third" }
+    ],
+    "price": 12345
+  },
+  {
+    "icon": "/services/website-development.png",
+    "title": "SPA.title",
+    "description": "SPA.description",
+    "detailsList": [
+      { "icon": "/services/clock.png", "text": "SPA.details.first" },
+      { "icon": "/services/palette.png", "text": "SPA.details.second" },
+      { "icon": "/services/website-promotion.png", "text": "SPA.details.third" }
+    ],
+    "price": 12345
+  },
+  {
+    "width": 30,
+    "height": 23,
+    "originalWidth": 60,
+    "originalHeight": 46,
+    "icon": "/services/website-card-icon.png",
+    "title": "websiteCard.title",
+    "description": "websiteCard.description",
+    "detailsList": [
+      { "icon": "/services/clock.png", "text": "websiteCard.details.first" },
+      { "icon": "/services/palette.png", "text": "websiteCard.details.second" },
+      { "icon": "/services/website-development.png", "text": "websiteCard.details.third" }
+    ],
+    "price": 12345
+  }
+]

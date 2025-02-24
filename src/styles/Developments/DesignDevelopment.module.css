@@ -1,0 +1,38 @@
+.development__container {
+	@apply
+	px-[20px]
+	flex
+	flex-col
+	items-center
+	justify-around
+	lg:flex-row-reverse
+	lg:px-0
+	lg:pl-[50px]
+	lg:gap-[30px]
+	lg:pr-[30px]
+	;
+}
+
+.development__image_container {
+	@apply
+	w-[300px]
+	sm:w-[450px]
+	lg:w-[550px]
+	flex
+	justify-center
+	items-center
+	mt-[20px]
+	;
+}
+
+.development__image {
+	@apply
+	w-full
+	h-full
+	;
+	aspect-ratio: 736 / 484;
+	background-image: url('/design-development/tablet.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

@@ -1,0 +1,148 @@
+.service__container {
+	@apply
+	rounded-2xl
+	bg-accent
+	flex
+	flex-col
+	justify-start
+	items-center
+	px-[20px]
+	pb-[34px]
+	w-full
+	lg:w-[338px]
+	overflow-hidden
+	h-[700px]
+	relative
+	;
+	transition: height .5s ease-in-out;
+}
+
+.service__icon_container {
+	@apply
+	w-[70px]
+	h-[70px]
+	bg-transparentBlue
+	mb-[30px]
+	flex
+	justify-center
+	items-center
+	;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+}
+
+.details__item_icon,
+.service__icon {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.service__icon {
+	@apply
+	w-[27px]
+	h-[27px]
+	;
+	aspect-ratio: 54 / 54;
+}
+
+.service__title {
+	@apply
+	text-[20px]
+	font-bold
+	mb-[5px]
+	;
+}
+
+.sevice__description {
+	@apply
+	font-light
+	text-[16px]
+	text-black
+	text-center
+	;
+}
+
+.services__details_list {
+	@apply
+	flex
+	flex-col
+	w-full
+	mb-[30px]
+	gap-[10px]
+	h-[180px]
+	;
+}
+
+.services__details_item {
+	@apply
+	bg-white
+	flex
+	rounded-xl
+	w-full
+	gap-[15px]
+	py-[10px]
+	px-[15px]
+	items-center
+	text-[16px]
+	;
+}
+
+.services__details_item:last-child {
+	@apply
+	items-start
+	;
+}
+
+.services__details_item:last-child > .details__item_icon {
+	@apply
+	mt-[5px]
+	;
+}
+
+.details__item_icon {
+	@apply
+	w-[17px]
+	h-[17px]
+	;
+	aspect-ratio: 34 / 34;
+}
+
+.service__price {
+	@apply
+	lg:mt-[50px]
+	mt-[20px]
+	mb-[30px]
+	lg:mb-0
+	;
+	transition: margin-bottom .8s ease-in-out;
+}
+
+.service__container button {
+	@apply
+	lg:h-0
+	lg:text-transparent
+	text-white
+	;
+	transition: height .5s ease-in-out, color .3s ease-in-out;
+}
+
+.service__container:hover button {
+	@apply
+	h-[60px]
+	text-white
+	;
+}
+
+.service__container:hover .service__price {
+	@apply
+	mb-[30px]
+	;
+}
+
+.service__container:hover button:active {
+	@apply
+	text-primary
+	transition-none
+	;
+}

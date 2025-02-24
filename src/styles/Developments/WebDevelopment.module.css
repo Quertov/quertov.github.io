@@ -1,0 +1,60 @@
+.development__container {
+	@apply
+	px-[20px]
+	flex
+	flex-col
+	lg:flex-row-reverse
+	lg:gap-[30px]
+	lg:px-0
+	lg:pl-[50px]
+	lg:pr-[30px]
+	;
+}
+
+.development__img_container {
+	@apply
+	w-full
+	flex
+	items-center
+	justify-center
+	;
+}
+
+.development__img,
+.rocket_icon,
+.apps_icon {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.development__img {
+	@apply
+	w-[368px]
+	sm:w-[450px]
+	2xl:w-[550px]
+	;
+	aspect-ratio: 736 / 527;
+	background-image: url('/web-development/website-preview.png');
+}
+
+.rocket_icon {
+	@apply
+	w-[26px]
+	ml-[10px]
+	mb-[6px]
+	lg:w-[40px]
+	lg:mb-[20px]
+	lg:ml-[20px]
+	;
+	aspect-ratio: 26 / 26;
+	background-image: url('/web-development/rocket-icon.png');
+}
+
+.apps_icon {
+	@apply
+	w-[16px]
+	;
+	aspect-ratio: 34 / 35;
+	background-image: url('/web-development/app-icon.png');
+}
