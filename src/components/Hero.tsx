@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 import { useAppSelector } from "@/store/store";
 import { Button } from "./utils/Button";
 import Image from "next/image";
-import { faTelegram, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faTelegram, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export const Hero: FC = () => {
 	const isMobile = useAppSelector((state) => state.ui.isMobile);

@@ -4,7 +4,7 @@ import { FC, useState, useEffect } from "react";
 import styles from '@/styles/Menu.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { faTelegram, faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faTelegram, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { useTranslations } from "next-intl";
 import { useChangeLanguage } from "@/hooks/useChangeLanguage";
 
@@ -28,7 +28,7 @@ export const Menu: FC = () => {
 				document.body.classList.remove('overflow-hidden');
 			}
 		}
-	}, [menuOpened]);
+	}, [menuOpened, scrollPosition]);
 
 	return (
 		<>

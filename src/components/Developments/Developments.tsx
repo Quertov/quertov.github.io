@@ -10,8 +10,8 @@ import { DesignDevelopment } from "./DesignDevelopment";
 
 export const Developments: FC = () => {
 	const t = useTranslations('developments');
-	const developmentTexts = useMemo(() => ( [ t('web.title'), t('mobile.title'), t('design.title')] ), []);
-	const developments = useMemo(() => ( [<WebDevelopment />, <MobileDevelopment />, <DesignDevelopment />] ), []);
+	const developmentTexts = useMemo(() => ( [ t('web.title'), t('mobile.title'), t('design.title')] ), [t]);
+	const developments = useMemo(() => ( [<WebDevelopment key={ 10 } />, <MobileDevelopment key={ 11 } />, <DesignDevelopment key={ 12 } />] ), []);
 	const [activeDevelopment, setActiveDevelopment] = useState<number>(0);
 
 	return (

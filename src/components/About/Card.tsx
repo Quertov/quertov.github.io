@@ -1,6 +1,5 @@
 import { FC } from "react";
 import styles from '@/styles/About/Card.module.css';
-import { useTranslations } from "next-intl";
 
 interface CardProps {
 	text: string,
