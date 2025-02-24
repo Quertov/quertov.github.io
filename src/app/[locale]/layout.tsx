@@ -15,7 +15,11 @@ interface LocaleLayoutProps {
 }
 
 export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
-  const { locale } = params;
+  if (!params || typeof params !== 'object') {
+    throw new Error("Invalid params received in LocaleLayout.");
+  }
+
+  const { locale } = await params;
 
   if (!routing.locales.includes(locale as Locales)) {
     notFound();
