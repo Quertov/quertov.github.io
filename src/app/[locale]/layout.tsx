@@ -9,13 +9,12 @@ import { ClientProvider } from "@/components/utils/ClientProvider";
 import { Header } from '@/components/Header';
 import { Locales } from '@/types'; 
 
-export default async function LocaleLayout({
-  children,
-  params
-}: {
+interface LocaleLayoutProps {
   children: React.ReactNode;
-  params: {locale: string};
-}) {
+  params: { locale: string };
+}
+
+export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
   const { locale } = params;
 
   if (!routing.locales.includes(locale as Locales)) {
