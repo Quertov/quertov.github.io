@@ -11,14 +11,10 @@ import { Locales } from '@/types';
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
-  params: { locale: string };
+  params: { locale: Locales };
 }
 
 export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
-  if (!params || typeof params !== 'object') {
-    throw new Error("Invalid params received in LocaleLayout.");
-  }
-
   const { locale } = await params;
 
   if (!routing.locales.includes(locale as Locales)) {
