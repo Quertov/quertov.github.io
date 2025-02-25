@@ -4,8 +4,7 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	distDir: 'build',
-	fallback: 'false'
+	distDir: 'build'
 };
  
 export default withNextIntl(nextConfig);
